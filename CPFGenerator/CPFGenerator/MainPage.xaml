@@ -14,8 +14,9 @@
         <Label Text="Para gerar um cpf clique no botão generate abaixo:" FontSize="Body" TextColor="White" Padding="15,10,30,10" HorizontalTextAlignment="Center"/>
 
 
-        <FlexLayout Padding="145,10">
+        <FlexLayout Padding="105,10">
             <Button x:Name="btn_gerar" Text="Generate" TextColor="White" BackgroundColor="HotPink" CornerRadius="5" HeightRequest="50" WidthRequest="100" Clicked="btn_gerar_Clicked"  />
+            <Button x:Name="btn_copy" Text="Copy" TextColor="White" BackgroundColor="#E12583" CornerRadius="5" HeightRequest="50" WidthRequest="100" Clicked="btn_copy_Clicked" Margin="10,0"   />
         </FlexLayout>
         <FlexLayout Padding="20,0">
             <Entry Placeholder="Result" x:Name="lbl_resultado" WidthRequest="350" HeightRequest="50" IsEnabled="False" />

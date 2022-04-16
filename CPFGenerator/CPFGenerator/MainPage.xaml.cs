@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace CPFGenerator
 {
@@ -76,6 +77,17 @@ namespace CPFGenerator
 
         }
 
+        private async void btn_copy_Clicked(object sender, EventArgs e)
+        {
+            if (await DisplayAlert("Atenção", "você realmente deseja copiar o CPF gerado?", "yes", "no"))
+            {
+                await Clipboard.SetTextAsync(lbl_resultado.Text);
+            }
+            else
+            {
+                await DisplayAlert("Atenção", "Você não quis copiar o cpf gerado", "Prosseguir para a tela inicial");
+            }
+        }
     }
 
  }
