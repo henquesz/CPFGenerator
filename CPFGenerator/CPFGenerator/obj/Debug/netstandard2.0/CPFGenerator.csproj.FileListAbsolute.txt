@@ -1,0 +1,15 @@
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\bin\Debug\netstandard2.0\CPFGenerator.deps.json
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\bin\Debug\netstandard2.0\CPFGenerator.dll
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\bin\Debug\netstandard2.0\CPFGenerator.pdb
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\CPFGenerator.csproj.AssemblyReference.cache
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\CPFGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\CPFGenerator.AssemblyInfoInputs.cache
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\CPFGenerator.AssemblyInfo.cs
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\CPFGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\CPFGenerator.dll
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\refint\CPFGenerator.dll
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\CPFGenerator.pdb
+C:\Users\Vini Henquesz\Desktop\CPFGenerator\CPFGenerator\CPFGenerator\obj\Debug\netstandard2.0\ref\CPFGenerator.dll

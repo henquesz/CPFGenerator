@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "yRfno7069HlNZzANIldeuMywKxwF3iZVaSUVPmd9KTcs7z7YGwO1eR+eJQJYduNLgvJrGY1c8l7uJQwCQfxLYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vini Henquesz\\Desktop\\CPFGenerator\\CPFGenerator\\CPFGenerator\\CPFGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vini Henquesz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Vini Henquesz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Vini Henquesz\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Vini Henquesz\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Vini Henquesz\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CPFGenerator.MainPage">
+            
+
+    <StackLayout>
+        <Frame BackgroundColor="HotPink" Padding="24" CornerRadius="0">
+            <Label Text="CPF GENERATOR" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Para gerar um cpf clique no botão generate abaixo:" FontSize="Body" TextColor="White" Padding="15,10,30,10" HorizontalTextAlignment="Center"/>
+
+
+        <FlexLayout Padding="145,10">
+            <Button x:Name="btn_gerar" Text="Generate" TextColor="White" BackgroundColor="HotPink" CornerRadius="5" HeightRequest="50" WidthRequest="100" Clicked="btn_gerar_Clicked"  />
+        </FlexLayout>
+        <FlexLayout Padding="20,0">
+            <Entry Placeholder="Result" x:Name="lbl_resultado" WidthRequest="350" HeightRequest="50" IsEnabled="False" />
+        </FlexLayout>
+
+        <Label FontSize="16" Padding="110,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Veja mais em "/>
+                        <Span Text="github.com/henquesz" FontAttributes="Bold" TextColor="HotPink"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label FontSize="16" Padding="105,500,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="•" TextColor="Green"/>
+                        <Span Text="nova feature em desenvolvimento: "/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label Text="Implementação da validação do cpf gerado." FontSize="Body" TextColor="HotPink" Padding="35,0,30,10" HorizontalTextAlignment="Center"/>
+    </StackLayout>
+
+</ContentPage>

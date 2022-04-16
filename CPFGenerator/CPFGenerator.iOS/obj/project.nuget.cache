@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yiWLc/KKlEFJ3qRsEdFKYCPQQpfpLZ3jFVeC3pc2vGJGJtq03aTDAgKYtSD5YsaZ+DLqC5gAvEdBuH94J8SqIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vini Henquesz\\Desktop\\CPFGenerator\\CPFGenerator\\CPFGenerator.iOS\\CPFGenerator.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vini Henquesz\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Vini Henquesz\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Vini Henquesz\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
