@@ -12,16 +12,14 @@ namespace CPFGenerator
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        public bool IsPlaying { get; set; }
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = this;
-            IsPlaying = !IsPlaying;
-            OnPropertyChanged(nameof(IsPlaying));
         }
         private void btn_gerar_Clicked(object sender, EventArgs e)
         {
+
+            //Código para a geração dos números do cpf através de array
             var random = new Random();
 
             int soma = 0;
@@ -75,17 +73,51 @@ namespace CPFGenerator
 
             lbl_resultado.Text = semente;
 
+            //Refresh de cores e texto da label quando um novo cpf é gerado
+            lbl_resultado.TextColor = Color.White;
+            lbl_info.Text = "-";
+            lbl_info.TextColor = Color.White;
         }
 
         private async void btn_copy_Clicked(object sender, EventArgs e)
         {
+            //Displayalert para confirmação de copia para a area de transferencia
             if (await DisplayAlert("Atenção", "você realmente deseja copiar o CPF gerado?", "yes", "no"))
             {
+                //metodo nativo de cópia
                 await Clipboard.SetTextAsync(lbl_resultado.Text);
             }
             else
             {
                 await DisplayAlert("Atenção", "Você não quis copiar o cpf gerado", "Prosseguir para a tela inicial");
+            }
+        }
+
+        private void btn_valida_Clicked(object sender, EventArgs e)
+        {
+            //Instanciamento da classe de validação
+            ValidaCPF vldcpf = new ValidaCPF();
+
+            //string para tratamento de validação atraves do label de resultado
+            string valor = lbl_resultado.Text;
+
+
+           //Possivel tratamento de erro em caso de entrada = null na string valor
+           // if (CPFGenerator.ValidaCPF.isCpf( valor = null)){DisplayAlert("Atenção", "Você não gerou um cpf para que seja validado", "Prosseguir para a tela inicial");}
+
+            //if de validação caso o cpf seja valido
+            if (CPFGenerator.ValidaCPF.isCpf(valor))
+            {
+                lbl_resultado.TextColor = Color.Green;
+                lbl_info.Text = "Válido";
+                lbl_info.TextColor = Color.Green;
+            }
+            //if de validação caso o cpf seja invalido
+            else
+            {
+                lbl_resultado.TextColor = Color.Red;
+                lbl_info.Text = "Inválido";
+                lbl_info.TextColor = Color.Red;
             }
         }
     }
